@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .title {
+  margin: 0;
+}
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.navbar .nav-links a:hover {
+  color: #0056b3;
+}
+
+#tabelaKnjiga {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 50px;
+}
+#tabelaKnjiga th, #tabelaKnjiga td {
+  border: 1px solid black;
+  min-width: 100px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=pregledKnjiga.css.map */
