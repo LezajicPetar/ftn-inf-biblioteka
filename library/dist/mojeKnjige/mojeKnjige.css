@@ -29,4 +29,16 @@ body {
   color: #0056b3;
 }
 
+#tabelaIznajmljenihKnjiga {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 50px;
+}
+#tabelaIznajmljenihKnjiga th, #tabelaIznajmljenihKnjiga td {
+  border: 1px solid black;
+  min-width: 100px;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=mojeKnjige.css.map */
